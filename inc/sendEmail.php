@@ -1,7 +1,7 @@
 ﻿<?php
 
 // Replace this with your own email address
-$siteOwnersEmail = 'wli31@lwcugb.github.io';
+$siteOwnersEmail = 'wli31@central.uh.edu';
 
 
 if($_POST) {
