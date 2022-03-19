@@ -134,8 +134,8 @@
    });
 
 /*----------------------------------------------------*/
-/*	contact form
-------------------------------------------------------*/
+/*	contact form (replaced)
+
 
    $('form#contactForm button.submit').click(function() {
 
@@ -152,7 +152,7 @@
       $.ajax({
 
 	      type: "POST",
-	      url: "",
+	      url: "inc/sendEmail.php",
 	      data: data,
 	      success: function(msg) {
 
@@ -179,6 +179,7 @@
 
 });
 
+------------------------------------------------------*/
 
 
 
