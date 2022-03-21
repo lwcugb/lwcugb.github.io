@@ -637,6 +637,13 @@ call-to-action .button {
 	color: #D8D8D8;
 }
 
+/* This is to set 'Li W.' as bold link (can set link to the paper if you want) */
+#call-to-action p span a{
+   text-decoration: underline;
+   font-family: 'opensans-bold';
+   font-size: 20px; 
+}
+
 /* ------------------------------------------------------------------
 /* g. Testimonials
 /* ------------------------------------------------------------------ */
