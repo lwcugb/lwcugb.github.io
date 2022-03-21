@@ -212,6 +212,7 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
+
 #about .download {
    width: 58.33333%;
    padding-top: 6px;
@@ -255,7 +256,7 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 6px;
 }
 #resume h3 {
-   font: 25px/30px 'opensans-bold', sans-serif;
+   font: 18px/30px 'opensans-bold', sans-serif;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -305,7 +306,7 @@ ul#nav li.current a { color: #F06000; }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
    color: #313131;
-	text-transform: uppercase;
+/*	text-transform: uppercase;  */
    letter-spacing: 2px;
 	font-weight: normal;
    position: relative;
@@ -325,85 +326,85 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+.Python {
+  	width: 70%;
+  	-moz-animation: Python 2s ease;
+  	-webkit-animation: Python 2s ease;
 }
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
-.css {
-  	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
-}
-.html5 {
+.R {
   	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+  	-moz-animation: R 2s ease;
+  	-webkit-animation: R 2s ease;
 }
-.jquery {
+.GEOS-Chem {
+  	width: 70%;
+  	-moz-animation: GEOS-Chem 2s ease;
+  	-webkit-animation: GEOS-Chem 2s ease;
+}
+.WRF-CAMx {
   	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+  	-moz-animation: WRF-CAMx 2s ease;
+  	-webkit-animation: WRF-CAMx 2s ease;
+}
+.SMOKE {
+  	width: 30%;
+  	-moz-animation: SMOKE 2s ease;
+  	-webkit-animation: SMOKE 2s ease;
+}
+.EE {
+  	width: 20%;
+  	-moz-animation: EE 2s ease;
+  	-webkit-animation: EE 2s ease;
 }
 
-@-moz-keyframes photoshop {
+@-moz-keyframes Python {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 70%;  }
 }
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-moz-keyframes html5 {
+@-moz-keyframes R {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-moz-keyframes jquery {
+@-moz-keyframes GEOS-Chem {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-moz-keyframes WRF-CAMx {
   0%   { width: 0px;  }
   100% { width: 50%;  }
+}
+@-moz-keyframes SMOKE {
+  0%   { width: 0px;  }
+  100% { width: 30%;  }
+}
+@-moz-keyframes EE {
+  0%   { width: 0px;  }
+  100% { width: 20%;  }
 }
 
-@-webkit-keyframes photoshop {
+@-webkit-keyframes Python {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 70%;  }
 }
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-webkit-keyframes html5 {
+@-webkit-keyframes R {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-webkit-keyframes jquery {
+@-webkit-keyframes GEOS-Chem {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-webkit-keyframes WRF-CAMx {
   0%   { width: 0px;  }
   100% { width: 50%;  }
+}
+@-webkit-keyframes SMOKE {
+  0%   { width: 0px;  }
+  100% { width: 30%;  }
+}
+@-webkit-keyframes EE {
+  0%   { width: 0px;  }
+  100% { width: 20%;  }
 }
 
 /* ------------------------------------------------------------------ */
